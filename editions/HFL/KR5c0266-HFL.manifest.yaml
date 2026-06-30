@@ -1,0 +1,39 @@
+canonical_identifier: bkk:krp/KR5c0266/HFL/v1
+canonical_location: https://kanripo.org/bkk/KR5c0266/HFL/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+metadata:
+  title: 思印氣訣法
+  date: '2015-08-29 00:55:14.442833'
+  source:
+    repository: kanripo
+    path: KR5c0266
+  image_base_urls:
+    SJB: http://img.kanripo.org/daoist/ztdz/
+    CK-KZ: http://img.kanripo.org/daoist/dzjy/CK-KZ/
+    YP-C: http://img.kanripo.org/daoist/dzjy/JY-C/
+    HFL: http://img.kanripo.org/daoist/ztdz/
+  edition:
+    short: HFL
+    label: 【正統道藏・涵芬樓版】
+entity_encoding:
+  identifier: bkk:encoding/kanripo-pua-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+assets:
+  parts:
+  - {seq: 0, filename: KR5c0266_000-HFL.yaml, hash: 'sha256:668c9d8abb6b48a3041c9637d2eee4788ca601b97acd9e03df2848dbdef8485f'}
+  markers:
+  - {seq: 0, role: markers, filename: assets/KR5c0266_000-HFL.markers.yaml, hash: 'sha256:639cb751f1921defd1589f730a9ed06312c6727e7e0314b40e67442c9e1a5657'}
+table_of_contents:
+- ref:
+    seq: 0
+    marker_id: KR5c0266_HFL_000-001a
+    span:
+    - body
+    - 0
+    - 1560
+  label: juan 000
+  type: section
+  level: 1
+hash: sha256:7eb1d5b8d1441c27f8f9958c9e8e658f80ae0f5319292eb6d4de18c5f3bb599a
